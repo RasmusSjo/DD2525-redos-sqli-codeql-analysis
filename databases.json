@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "databases": {
+    "variantAnalysis": {
+      "repositoryLists": [
+        {
+          "name": "NodeJS REDoS Targets popular",
+          "repositories": [
+            "RasmusSjo/DD2525-Labs",
+            "louislam/uptime-kuma",
+            "gethomepage/homepage",
+            "advplyr/audiobookshelf",
+            "grocy/grocy",
+            "sandstorm-io/sandstorm",
+            "crocodilestick/Calibre-Web-Automated",
+            "azukaar/Cosmos-Server",
+            "tellform/tellform",
+            "RD17/ambar",
+            "xemle/home-gallery",
+            "ridhwaans/homehost",
+            "jamebal/jmal-cloud-view",
+            "vercel/hyper-site",
+            "KeenRivals/bestmotherfucking.website",
+            "nelsonlaidev/nelsonlai.dev",
+            "XRPLF/xrpl-dev-portal",
+            "zukahai/confess-crush",
+            "rabbitmq/rabbitmq-website",
+            "Gzh0821/pvzg_site",
+            "elementary/website",
+            "reactjs/react.dev",
+            "expressjs/expressjs.com",
+            "flutter/website",
+            "rampatra/wedding-website",
+            "Zhoros/NortixMail",
+            "hackthedev/dcts-shipping",
+            "timothepoznanski/poznote",
+            "andreasbm/web-skills",
+            "hoodiehq/hoodie",
+            "HospitalRun/hospitalrun-server",
+            "WebDevStudios/nextjs-wordpress-starter",
+            "1j01/jspaint",
+            "OmniDB/OmniDB",
+            "atulmy/crate",
+            "nexxtway/react-rainbow",
+            "sahat/hackathon-starter",
+            "eyaltoledano/claude-task-master",
+            "axios/axios",
+            "NaiboWang/EasySpider",
+            "ascoders/weekly",
+            "photo/frontend",
+            "owntracks/frontend",
+            "silexlabs/Silex",
+            "opensupports/opensupports",
+            "testing-library/testing-playground",
+            "kisslove/web-monitoring",
+            "sassanix/Warracker",
+            "jstrieb/link-lock",
+            "shamahoque/mern-social",
+            "blenderskool/blaze"
+          ]
+        },
+        {
+          "name": "NodeJS REDoS Targets small",
+          "repositories": [
+            "RasmusSjo/DD2525-Labs",
+            "proneprune/DH2642-Iprog"
+          ]
+        }
+      ],
+      "owners": [],
+      "repositories": []
+    }
+  },
+  "selected": {
+    "kind": "variantAnalysisUserDefinedList",
+    "listName": "NodeJS REDoS Targets popular"
+  }
+}

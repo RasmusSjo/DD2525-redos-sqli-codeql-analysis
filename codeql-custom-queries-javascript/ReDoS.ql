@@ -1,5 +1,5 @@
 /**
- * @name Deduplicated Dual-Controlled Match REDoS
+ * @name Deduplicated Dual-Controlled Match ReDoS
  * @kind problem
  * @problem.severity error
  * @id js/deduplicated-dual-redos
@@ -36,12 +36,12 @@ where
         mce.getMethodName() = ["match", "search", "replace", "replaceAll", "split"] and
         sinkPattern.getNode() = DataFlow::exprNode(mce.getArgument(0)) and
         sinkString.getNode() = DataFlow::exprNode(mce.getReceiver()) and
-        msg = "REDoS Hazard: Both the search pattern and the target string are user-controlled."
+        msg = "ReDoS Hazard: Both the search pattern and the target string are user-controlled."
       ) or (
         mce.getMethodName() = ["test", "exec"] and
         sinkPattern.getNode() = DataFlow::exprNode(mce.getReceiver()) and
         sinkString.getNode() = DataFlow::exprNode(mce.getArgument(0)) and
-        msg = "REDoS Hazard: Both the execution RegExp object and the incoming string are user-controlled."
+        msg = "ReDoS Hazard: Both the execution RegExp object and the incoming string are user-controlled."
       )
     )
   )

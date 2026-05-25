@@ -24,7 +24,6 @@ module Flow = TaintTracking::Global<DualControlConfig>;
 
 from MethodCallExpr mce, string msg, DataFlow::Node patternSource, DataFlow::Node stringSource
 where
-  // Switch to standard 'problem' type and collapse paths internally using exists()
   exists(Flow::PathNode sourcePattern, Flow::PathNode sinkPattern,
          Flow::PathNode sourceString, Flow::PathNode sinkString |
     Flow::flowPath(sourcePattern, sinkPattern) and

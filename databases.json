@@ -226,6 +226,26 @@
             "Eshaan-Nair/ArcRift",
             "manjeshpv/node-oauth2-server-implementation"
           ]
+        },
+        {
+          "name": "DEMO ReDoS",
+          "repositories": [
+            "RasmusSjo/DD2525-Labs",
+            "photo/frontend",
+            "NaiboWang/EasySpider",
+            "advplyr/audiobookshelf",
+            "apache/dolphinscheduler-website"
+          ]
+        },
+        {
+          "name": "DEMO SQLi",
+          "repositories": [
+            "juice-shop/juice-shop",
+            "thevahidal/soul",
+            "yzua/sqlite-online",
+            "ujjwalguptaofficial/JsStore",
+            "nalgeon/sqlime"
+          ]
         }
       ],
       "owners": [],
